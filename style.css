@@ -1,0 +1,531 @@
+/*
+	Theme name:
+	Author: 
+	Author Uri: http://www.redsand.vn/
+	Vertion: 1.0
+*/
+
+@import "font/stylesheet.css";
+/*---------Body---------*/
+body{
+    font-size:12px;
+	font-family: Arial;
+	color:#4f4f4f;
+}
+
+.center
+{
+	width:970px;
+	margin:0 auto;
+}
+
+/*---------Header---------*/
+#header-container{
+	background: url("images/bgr-header.png") repeat-x;
+	display: block;
+	height: 65px;
+	box-shadow: 0px 1px 5px #a7a7a7;
+	padding-top: 35px;
+}
+
+.menu{
+	margin-top: -5px;	
+}
+
+.menu li{
+	border-left: 1px solid #fff;
+	border-right: 1px  solid #dedede;
+	line-height: 55px;
+	margin: 0px -1px;
+}
+
+.menu li:first-child{
+	border-left: none;
+}
+
+.menu li:last-child{
+	border-right: none;
+}
+
+.menu li:hover{
+	border: none;
+}
+
+.menu .activer a, .menu li:hover a, .menu li a:hover{
+	background: #050505;
+	border-radius: 0px 0px 10px 10px;
+	color: #fff;
+	padding: 45px 35px;
+	border-right: 1px solid #050505;
+	border-left: 1px solid #050505;
+}
+
+.menu li a{
+	font-family: "Vegur-Regular";
+	font-size: 28px;
+	color: #151515;
+	padding: 10px 35px;
+}
+
+/*---------Intro---------*/
+#intro-container{
+	background: url("images/bgr-intro.png") repeat-x center -90px #fff;
+	padding-top: 30px;
+}
+
+#intro .logo{
+	font-family: "Montez-Regular";
+	color: #262626;
+	font-size: 90px;
+	margin-left: 40px;
+}
+
+#intro .logo span{
+	color: #0dc2ce;
+}
+
+#intro img{
+	margin-left: -100px;
+}
+/*---------Content---------*/
+
+.title{
+	font-family: "Vegur-Light";
+	font-size: 35px;
+	color: #151515;
+}
+
+.news a{
+	display: block;
+	text-decoration: underline;
+	color: #0dc2ce;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 35px;
+}
+
+.news span{
+	font-family: "Arial";
+	font-size: 14px;
+	color: #181818;
+	width: 215px;
+	display: block;
+	word-spacing: 1px;
+	line-height: 22px;
+}
+
+.content-center{
+	margin-left: 40px;
+}
+
+.content-center .title{
+	font-size: 42px;
+	margin-bottom: 25px;
+}
+
+.producedure li:first-child{
+	border: none;
+}
+
+.producedure li{
+	padding: 20px 0px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.producedure img{
+	border: 1px solid #e5e5e5;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+.producedure a{
+	font-family: "Vegur-Light";
+	font-size: 28px;
+	color: #0dc2ce;
+	display: block;
+}
+
+.producedure span{
+	font-family: "Arial";
+	font-size: 14px;
+	width: 240px;
+	line-height: 20px;
+	margin-top: 10px;
+	display: inline-block;
+	zoom:1;
+	*display: block;
+}
+
+.content-right{
+	width: 250px;
+}
+
+.content-right .title{
+	margin-bottom: 30px;
+}
+
+.service li{
+	margin-top: 28px;
+}
+
+.service img{
+	margin-right: 20px;
+}
+
+.service a{
+	display: block;
+	font-family: "Arial";
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 14px;
+	color: #181818;
+}
+
+.service span{
+	
+    display: inline-block;
+    font-family: "Arial";
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 5px;
+    width: 155px;
+	zoom:1;
+	*display: inline;
+}
+/*---------Product---------*/
+#product-container{
+	background: #efefef;
+	padding: 35px 0px;
+}
+
+#product .title{
+	margin-bottom: 25px;
+	line-height: 35px;
+}
+
+#product li{
+	width: 295px;
+	margin-left: 35px;
+	line-height: 22px;
+	float: left;
+}
+
+#product li:first-child{
+	margin: 0px;
+}
+
+#product span{
+	font-family: "Arial";
+	font-size: 14px;
+	color: #181818;
+}
+.link{
+	color: #0dc2ce;
+}
+
+.readmore{
+	display: block;
+	font-family: "Vegur-Regular";
+	font-size: 19px;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 8px;
+	text-transform: uppercase;
+	background: #0bbac7;
+	text-shadow: 1px 0px 1px #6dd8e0;
+	width: 100px;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 15px;
+}
+
+.readmore:hover{
+	background: #41e0ea;
+}
+/*---------Footer---------*/
+#footer-container{
+	background: #171717;
+	padding: 35px 0px;
+}
+
+.footer-left p, .footer-right p{
+	font-family: "Vegur-Light";
+	font-size: 22px;
+	color: #fff;
+	line-height: 28px;
+}
+
+.social{
+	margin-top: 10px;
+}
+
+.social li{
+	margin-right: 5px;
+}
+
+.footer-right .link{
+	font-size: 35px;
+	color: #0dc2ce;
+}
+
+.footer-right .mobile{
+	font-size: 41px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.footer-right .mobile span{
+	color: #808080;
+}
+
+/* Page-therapies */
+.page-therapies .logo{
+	margin-left: 0px !important;
+}
+
+.page-name{
+	font-family: "Vegur-Light";
+	font-size: 35px;
+	color: #151515;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.intro-product li{
+	width: 285px;
+	margin-right: 35px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.intro-product img{
+	border: 1px solid #e5e5e5;
+	padding: 3px;
+}
+
+.instro-product p{
+	font-family: "Arial";
+	font-size: 14px;
+}
+
+.intro-product .tit-pro{
+	font-weight: bold;
+	color: #0dc2ce;
+	margin: 15px 0px;
+}
+
+.intro-product .cont-pro{
+	font-weight: lighter;
+	line-height: 22px;
+}
+
+.intro-product .readmore{
+	width: 70px;
+}
+/* Page-contact */
+
+.contact-form{
+	
+}
+
+.contact-form li{
+	line-height: 25px;
+	margin-top: 5px;
+
+}
+
+.contact-form span{
+	font-size: 14px;
+	
+	width: 110px;
+	display: inline-block;
+	zoom:1;
+	*display: block;
+	vertical-align: top;
+}
+
+.contact-form input[type="text"]{
+	height: 25px;
+	border: 1px solid #e5e5e5;
+	width: 345px;
+}
+
+.contact-form textarea{
+	border: 1px solid #e5e5e5;
+	width: 485px;
+	margin-bottom: 20px
+}
+
+.address{
+	width: 300px;
+}
+
+.address b{
+	margin-top: 30px;
+	display: block;
+	
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.address span{
+	font-size: 14px;
+	display: inline-block;
+	zoom:1;
+	*display: block;
+	width: 85px;
+	
+}
+
+.address p{
+	font-size: 14px;
+	
+}
+
+.address a{
+	color: #0dc2ce;
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+.address a:hover{
+	text-decoration: none;
+}
+
+.page-contact .readmore{
+	display: inline !important;
+}
+
+.page-contact .content-right{
+	margin-right: 70px;
+}
+
+.page-contact #content-container{
+	padding-bottom: 30px;
+}
+
+.info .page-name{
+	margin-top: 0px;
+}
+
+.info .ct{
+	color: #181818;
+	font-size: 14px;
+	line-height: 22px;
+	display: block;
+}
+
+/* Page-staff */
+.page-staff #content-container{
+	padding-bottom: 30px;
+}
+
+.intro-staff li{
+	clear: both;
+    display: block;
+    padding: 35px 0px;
+}
+
+.intro-staff .ct-staff{
+	position: relative;
+}
+
+.intro-staff .ct-staff{
+	width: 620px;
+}
+
+.intro-staff .img-staff, .page-services .img-services, .choose .img-fe{
+	border: 1px solid #e5e5e5;
+	padding: 3px;
+	margin-right: 20px;
+}
+
+.intro-staff .name-staff, .page-services .tit{
+	font-family: "Vegur-Light";
+	font-size: 28px;
+	color: #0dc2ce;
+}
+
+.intro-staff .task-staff{
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.intro-staff .intro-ct-staff{
+	font-size: 14px;
+}
+
+.intro-staff .linkfb, .intro-staff .linktw{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.intro-staff .linkfb{
+	right: 25px;
+}
+
+/* Page-servies */
+.page-services #content-container{
+	padding-bottom: 20px;
+}
+
+.page-services .content-left{
+	width: 715px;
+}
+
+.page-services .content-right{
+	width: 200px;
+}
+
+.page-services .intro-services{
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 15px;
+    word-spacing: 1px;
+}
+
+.page-services .list-ser li{
+	background: url("images/icon-dot.png") left center no-repeat;
+	padding-left: 15px;
+	margin: 15px 0px;
+}
+
+.page-services .list-ser li a{
+	font-size: 14px;
+}
+
+.page-services .list-ser li:hover a, .page-services .list-ser li a:hover{
+	text-decoration: underline;
+}
+
+.why{
+	width: 450px;
+}
+
+.why li{
+	margin-top: 22px;
+}
+
+.choose .tit{
+	color: #0dc2ce;
+	margin-bottom: 10px;
+	display: block;
+	font-size: 14px;
+}
+
+.choose .ct{
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.fe-ser{
+	width: 450px
+}
+
+.fe-ser li{
+	clear: both;
+	padding: 7px 0px;
+}

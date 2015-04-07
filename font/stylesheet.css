@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Vegur-Regular';
+    src: url('Vegur-Regular.eot');
+    src: url('Vegur-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Vegur-Regular.woff') format('woff'),
+         url('Vegur-Regular.ttf') format('truetype'),
+         url('Vegur-Regular.svg#Vegur-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montez-Regular';
+    src: url('Montez-Regular.eot');
+    src: url('Montez-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Montez-Regular.woff') format('woff'),
+         url('Montez-Regular.ttf') format('truetype'),
+         url('Montez-Regular.svg#Montez-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vegur-Light';
+    src: url('Vegur-Light.eot');
+    src: url('Vegur-Light.eot?#iefix') format('embedded-opentype'),
+         url('Vegur-Light.woff') format('woff'),
+         url('Vegur-Light.ttf') format('truetype'),
+         url('Vegur-Light.svg#Vegur-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
